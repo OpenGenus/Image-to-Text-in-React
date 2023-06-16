@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import Tesseract from 'tesseract.js';
 import Loader from './components/Loader'
 import { MdCloudUpload, MdDelete } from 'react-icons/md'
-import NewCopy from './components/Copy';
+import Copy from './components/Copy';
 import './App.css';
 import {  toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -88,7 +88,7 @@ function App() {
         </div>}
 
 
-        {text && <NewCopy text={text} />}
+        {text && <Copy text={text} />}
       </div>
     </>
   );
