@@ -1,4 +1,13 @@
-# Getting Started with Create React App
+# Image-to-Text-in-React
+Web Application to convert Image to Text in React
+
+## For developing this web application,we are using
+* **React** :-frontend library
+* **tesseract.js** :-It's a pure Javascript library for text orientation and script detection
+
+Using tesseract library we can easily convert the image to text and also doesn't need any ML model for recognize the text.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
